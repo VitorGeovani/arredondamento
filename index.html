@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arredondamento</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center mb-4">Arredondar Números</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="numero">Número</label>
+          <input type="number" id="numero" class="form-control" placeholder="Insira o número">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="casas_decimais">Casas Decimais</label>
+          <input type="number" id="casas_decimais" class="form-control" placeholder="Número de casas decimais">
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <button type="button" id="arredondar" class="btn btn-primary">Arredondar</button>
+      <button type="button" id="limpar" class="btn btn-secondary">Limpar</button>
+    </div>
+    <div class="resultado mt-4">
+      <h4>Resultado:</h4>
+      <p id="resultado"></p>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
